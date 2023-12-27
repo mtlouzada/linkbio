@@ -5,8 +5,18 @@
     font-family: 'Ysabeau Infant', sans-serif;
 }
 
+h1::before{
+    background-image: url(/assets/verificado.png);
+}
+
+.logo{
+    width: 200px;
+    height: 180px;
+    border-radius: 50%;
+}
+
 .banner {
-    
+
 }
 
 .estatistica {
