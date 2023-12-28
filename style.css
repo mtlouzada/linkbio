@@ -2,7 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.fonte1{
     font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.fonte2{
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1::before{
@@ -10,9 +17,22 @@ h1::before{
 }
 
 .logo{
-    width: 200px;
-    height: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 180px;
+    align-items: center;
+}
+
+.logo-img{
+    max-width: 200px;
+    max-height: 200px;
     border-radius: 50%;
+}
+
+.nome{
+    display: flex;
+    justify-content: space-between;
 }
 
 .banner {
