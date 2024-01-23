@@ -43,12 +43,15 @@ h1::before{
 
 .nome{
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
+    width: 215px;
 }
 
-.nome h1 {
+h1, h2 {
     color: #fff;
-    font-size: 44px;
+    font-size: 36px;
+    text-shadow: 3px 6px 1px #000000;
+
 }
 
 .secao-banner{
@@ -80,9 +83,12 @@ h1::before{
     margin: 0 auto;
 }
 
-.container-links a{
+.container-links a {
     width: 100%;
     padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #0200006e;
     
 }
 
