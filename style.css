@@ -131,6 +131,8 @@ h1::before {
 .table th, td {
     padding: 20px;
     text-align: center;
+    font-weight: 500;
+    color: #fff;
 }
 
 .logo-times {
@@ -139,4 +141,15 @@ h1::before {
 
 thead {
     background-color: #000000cc;
+    padding: 20px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #000000cc;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #fff;
+    opacity: 90%;
+    color: #000000;
 }
