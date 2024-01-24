@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -127,12 +126,12 @@ h1::before {
     align-items: center;
 }
 
-
-.table th, td {
-    padding: 20px;
+table {
+    line-height: 3.5rem;
+    
     text-align: center;
     font-weight: 500;
-    color: #fff;
+    padding: 20px;
 }
 
 .logo-times {
@@ -142,10 +141,13 @@ h1::before {
 thead {
     background-color: #000000cc;
     padding: 20px;
+    color: #fff;
+
 }
 
 tbody tr:nth-child(even) {
     background-color: #000000cc;
+    color: #fff;
 }
 
 tbody tr:nth-child(odd) {
